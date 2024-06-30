@@ -1,0 +1,99 @@
+html,body{
+  background-color: #242424;
+  
+}
+
+textarea {
+  background-color: white;
+  color: black;
+  resize: none;
+  font-size: 2rem;
+}
+
+.CodingArea{
+  background-color: #242424;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+.CodeContainer{
+  width: 50vw;
+  height: 75vh;
+}
+
+.CodeContainerwithInputOutPut{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.InputOutPut{
+  display: flex;
+  flex-direction: column; 
+  gap : 50px;
+  justify-content: center;
+}
+
+.CodeContainerInput{
+  width: 30vw;
+  height:30vh;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 2rem;
+}
+
+button{
+  background-color: #007bff; /* Primary color */
+    border: none;             /* Remove default border */
+    color: white;             /* Text color */
+    padding: 1rem 2rem;     /* Padding */
+    font-size: 1.5rem;          /* Font size */
+    border-radius: 4px;       /* Rounded corners */
+    cursor: pointer;          /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+
+}
+
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+button:focus {
+  outline: none;            /* Remove focus outline */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+}
+
+button:active {
+  background-color: #004080; /* Even darker shade on click */
+}
+
+
+.dropdown{
+  width: 10rem;
+  color: white;
+  height: 2.1rem;
+  background-color: #007bff;
+  text-align: center;
+  margin: 1rem ;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.dropdownmenu{
+  font-size: xx-large;
+  color: black;
+  cursor: pointer;
+  background-color: white;    /* Background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  text-align: center;
+  padding: 0.5rem;
+}
